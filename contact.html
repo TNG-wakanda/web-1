@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        body{
+            background-color: lightcyan;
+            width: 50%;
+            height: auto;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            margin-left: 200px;
+
+        }
+
+        header {
+     
+      color: black;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      top: 0%;
+      display: fixed;
+    }
+
+    header h1 {
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    header img {
+      width: 50px;
+      height: 30px;
+      margin-right: 10px;
+      border-radius: 15px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav li {
+      position: relative;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      padding: 7px 15px;
+      display: block;
+      font-size: large;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bolder;
+      
+    }
+
+    nav a:hover {
+      color: blue;
+    }
+
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: gainsboro;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+     
+    }
+
+    .submenu a {
+      color: black;
+      margin: 5px 0;
+    }
+
+    nav li:hover .submenu {
+      display: block;
+    }
+
+     h2{
+        text-align: center;
+        color: darkblue;
+        font-size: large;
+
+     }
+
+     p{
+        text-align: center;
+        font-size: medium;
+        color: darkblue;
+        flex-direction: column;
+
+     }
+
+     .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: blanchedalmond;
+        padding: 0% 20px;
+        border: 2px solid darkblue;
+        box-shadow: 7px 7px 7px 0 black;
+        border-radius: 25px;
+
+     }
+
+    </style>
+</head>
+<body>
+  <header>
+    <h1><img src="img/logo2.jpg" alt="Logo">TNG</h1>
+    <nav>
+      <ul>
+        <li><a href="webpage.php">Home</a></li>
+        <li>
+          <a href="#">Products</a>
+          <div class="submenu">
+            <a href="product1.html">Product 1</a>
+            <a href="product2.html">Product 2</a>
+            <a href="product3.html">Product 3</a>
+          </div>
+        </li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+        
+        <h2>CONTACT US</h2>
+        <div class="container">
+        <p>for any inquiries reach out to us at:</p>
+        <p>Email:nshimiyimanagad24@gmail.com</p>
+        <p>phone:+250 793 084 254</p>
+        <p>Adress:Kigali,Rwanda</p>
+        <p>We are her to help for your any quetion or concern you may have</p>
+        <p>Thank you🥰😍 for visting our web site</p>
+        <p>We are loooking forward for hearing from you</p>
+        <p>Have a great and nice day</p>
+        <p>keep improving</p>
+        <p>keep learning</p>
+        <p>see you👌🎉</p>
+        </div>
+</body>
+</html>
